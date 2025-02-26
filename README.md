@@ -74,7 +74,7 @@ Model yang telah dilatih dapat disimpan ke **Google Drive** setelah proses pelat
 model.save('/content/drive/MyDrive/face_analysis_project/models/emotion_model.h5')
 ```
 
-Model yang telah dilatih dapat diakses di [Google Drive - emotion_model.h5](https://drive.google.com/drive/folders/1x2KdmiB3IjsdQGxf1lbdC9S05_iePML8?usp=sharing).
+Model yang telah dilatih dapat diakses di [Google Drive - emotion_model.h5](https://drive.google.com/drive/folders/1_uYLCplKCNf1ZW8ogVkdyAd4wVKUm-yO?usp=sharing).
 
 ## 🔧 Cara Menggunakan Model untuk Prediksi Ekspresi Wajah
 
