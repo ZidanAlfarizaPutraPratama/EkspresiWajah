@@ -1,5 +1,4 @@
-```markdown
-# README: Proyek Pengenalan Ekspresi Wajah 😃👀
+# Proyek Pengenalan Ekspresi Wajah 😃👀
 
 Selamat datang di proyek **Pengenalan Ekspresi Wajah**! 🎉 Proyek ini menggunakan teknik **deep learning** dengan model **Convolutional Neural Network (CNN)** untuk mendeteksi emosi berdasarkan ekspresi wajah. Model ini dilatih menggunakan dataset **FER2013**, yang berisi gambar yang dilabeli dengan 7 emosi berbeda.
 
@@ -16,7 +15,7 @@ Selamat datang di proyek **Pengenalan Ekspresi Wajah**! 🎉 Proyek ini mengguna
 
 Untuk memulai, instal semua perpustakaan yang diperlukan dengan menjalankan perintah berikut:
 
-```bash
+```
 !pip install tensorflow keras opencv-python pandas scikit-learn kaggle
 ```
 
@@ -24,7 +23,7 @@ Untuk memulai, instal semua perpustakaan yang diperlukan dengan menjalankan peri
 
 Mount Google Drive untuk menyimpan model dan file lainnya:
 
-```python
+```
 from google.colab import drive
 drive.mount('/content/drive')
 ```
@@ -35,7 +34,7 @@ drive.mount('/content/drive')
 2. **Setel akses API Kaggle** dengan menyalin `kaggle.json` ke folder yang tepat dan mengatur izin akses.
 3. **Unduh dataset FER2013** menggunakan perintah Kaggle:
 
-```bash
+```
 !kaggle datasets download -d msambare/fer2013
 !unzip fer2013.zip -d /content/fer2013
 ```
@@ -71,18 +70,19 @@ Setelah model dilatih, Anda dapat menggunakan **webcam** untuk mendeteksi ekspre
 
 Model yang telah dilatih dapat disimpan ke **Google Drive** setelah proses pelatihan selesai untuk digunakan kembali di masa depan. Anda dapat memuat kembali model tersebut untuk melakukan prediksi pada gambar atau video baru.
 
-```python
+```
 model.save('/content/drive/MyDrive/face_analysis_project/models/emotion_model.h5')
 ```
 
 Model yang telah dilatih dapat diakses di [Google Drive - emotion_model.h5](https://drive.google.com/drive/folders/1x2KdmiB3IjsdQGxf1lbdC9S05_iePML8?usp=sharing).
+
 ## 🔧 Cara Menggunakan Model untuk Prediksi Ekspresi Wajah
 
 Setelah model dilatih dan disimpan, Anda dapat menggunakannya untuk memprediksi ekspresi wajah pada gambar atau video lain. Cukup dengan memuat model yang telah disimpan dan memberikan gambar wajah untuk diprediksi.
 
 ## 📂 Struktur Folder
 
-```plaintext
+```
 SensorWajah
 ├── face_analysis_project
 │   ├── models
@@ -110,4 +110,3 @@ Proyek ini dilisensikan di bawah **MIT License**. Lihat file [LICENSE](LICENSE) 
 ---
 
 Terima kasih! Semoga bermanfaat untuk aplikasi pengenalan ekspresi wajah di berbagai bidang seperti **keamanan**, **interaksi manusia-komputer**, dan **analisis sentimen**. 🎉
-```
