@@ -91,9 +91,6 @@ SensorWajah
 │   ├── model_training.ipynb       # Notebook untuk pelatihan model
 │   └── requirements.txt           # Daftar dependensi untuk proyek
 ```
-
-- **/content/fer2013/images**: Gambar-gambar wajah dalam dataset FER2013.
-- **/content/fer2013/fer2013.csv**: File CSV yang berisi label ekspresi wajah.
 - **/content/drive/MyDrive/face_analysis_project/models/emotion_model.h5**: Model yang telah dilatih.
 
 ## 📌 Catatan
